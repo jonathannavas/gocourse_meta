@@ -49,5 +49,6 @@ func (p *Meta) Offset() int {
 }
 
 func (p *Meta) Limit() int {
+	log.Println(p.PerPage)
 	return p.PerPage
 }
